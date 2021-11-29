@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: black;
+  color: wheat;
+}
+input {
+  height: 30px;
+}
+li {
+  list-style-type: none;
+  height: 48px;
+  border: solid 2px grey;
+  text-align: left;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  line-height: 45px;
+}
+
+.crossText {
+  text-decoration: line-through;
+  color: red;
+}
+#add-item {
+  height: 37px;
+  background-color: green;
+}
+#delete {
+  background-color: red;
+  position: relative;
+  float: right;
+}
+#completed {
+  background-color: blue;
+  position: relative;
+  float: right;
+  margin-left: 20px;
+}
